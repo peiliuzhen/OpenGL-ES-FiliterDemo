@@ -65,7 +65,7 @@ typedef struct {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //设置背景颜色
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor blackColor];
     //创建滤镜工具栏
     [self setupFilterBar];
     //滤镜处理初始化
@@ -115,7 +115,7 @@ typedef struct {
     [self bindRenderLayer:layer];
     
     //6.获取处理的图片路径
-    NSString *imagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"james.jpeg"];
+    NSString *imagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"yingmu.jpg"];
   
     //读取图片
     UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
@@ -270,7 +270,7 @@ typedef struct {
     glUniform1f(time, currentTime);
     
     glClear(GL_COLOR_BUFFER_BIT);
-    glClearColor(1, 0, 0, 1);
+    glClearColor(1, 1, 1, 1);
     
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     [self.context presentRenderbuffer:GL_RENDERBUFFER];
@@ -279,7 +279,7 @@ typedef struct {
 -(void)render{
     // 清除画布
       glClear(GL_COLOR_BUFFER_BIT);
-      glClearColor(1, 0, 0, 1);
+      glClearColor(1, 1, 1, 1);
       
       //使用program
       glUseProgram(self.program);

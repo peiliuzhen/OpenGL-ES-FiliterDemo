@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A20F5B724E314F0001FE86A /* yingmu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A20F5B624E314F0001FE86A /* yingmu.jpg */; };
 		0AD88ACD24DEA67600D4C288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88ACC24DEA67600D4C288 /* AppDelegate.m */; };
 		0AD88AD024DEA67600D4C288 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88ACF24DEA67600D4C288 /* SceneDelegate.m */; };
 		0AD88AD324DEA67600D4C288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88AD224DEA67600D4C288 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A20F5B624E314F0001FE86A /* yingmu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yingmu.jpg; sourceTree = "<group>"; };
 		0AD88AC824DEA67600D4C288 /* 01-滤镜分屏效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-滤镜分屏效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD88ACB24DEA67600D4C288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AD88ACC24DEA67600D4C288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0AD88AD124DEA67600D4C288 /* ViewController.h */,
 				0AD88AD224DEA67600D4C288 /* ViewController.m */,
 				0AD88AD424DEA67600D4C288 /* Main.storyboard */,
+				0A20F5B624E314F0001FE86A /* yingmu.jpg */,
 				0AD88AE424DEA6E200D4C288 /* james.jpeg */,
 				0AD88AE624DEA6F600D4C288 /* Filter */,
 				0AD88AE724DEA70D00D4C288 /* Tool */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD88B0324DFF53800D4C288 /* SplitScreen_2.fsh in Resources */,
+				0A20F5B724E314F0001FE86A /* yingmu.jpg in Resources */,
 				0AD88B0724DFF75C00D4C288 /* SplitScreen_3.fsh in Resources */,
 				0AD88AFB24DFF1C800D4C288 /* Normal.fsh in Resources */,
 				0AD88B0C24DFF89D00D4C288 /* SplitScreen_4.fsh in Resources */,
